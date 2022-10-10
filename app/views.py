@@ -34,5 +34,5 @@ def show(request):
     authenticated=True
     context={"name":"User","listt":fList,"classObject":t,"age":t,"authenticated":authenticated}
     # return HttpResponse(template.render(context,request))
-    return render(request,'app/hello.html',context)
+    return render(request,'app/index.html',context)
 
