@@ -1,0 +1,13 @@
+ {% if authenticated %}
+    <h2> Hello {{name}}</h2>
+{% else %}
+    <h2> Hello Visiter</h2>
+{% endif %}
+
+{% comment %} <h2>{{listt.1}} </h2>
+<h2> {{classObject.x}}</h2>
+<h2> {{age.age}}</h2>  {% endcomment %}
+
+{%for x in fList%}
+    <p><h1>{{x}}</h1></p> 
+{% endfor %}
